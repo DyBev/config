@@ -1,0 +1,183 @@
+mod1:
+  - control
+  - shift
+
+mod2:
+  - control
+  - shift
+  - option
+
+layouts:
+  - fullscreen
+  - tall
+  - middle-wide
+  - column
+  - 3-column-middle
+  - bsp
+
+relaunch-amethyst:
+  mod: mod2
+  key: z
+
+select-fullscreen-layout:
+  mod: mod1
+  key: f
+
+select-tall-layout:
+  mod: mod1
+  key: a
+
+select-middle-wide-layout:
+  mod: mod1
+  key: j
+
+select-column-layout:
+  mod: mod1
+  key: c
+
+select-3-column-middle-layout:
+  mod: mod1
+  key: j
+
+select-bsp-layout:
+  mod: mod1
+  key: z
+
+shrink-main:
+  mod: mod1
+  key: x
+
+expand-main:
+  mod: mod1
+  key: b
+
+increase-main:
+  mod: mod1
+  key: ','
+
+decrease-main:
+  mod: mod1
+  key: ';'
+
+focus-ccw:
+  mod: mod1
+  key: u
+
+focus-cw:
+  mod: mod1
+  key: h
+
+focus-main:
+  mod: mod1
+  key: "'"
+
+focus-screen-cw:
+  mod: mod1
+  key: g
+
+swap-screen-cw:
+  mod: mod2
+  key: g
+
+focus-screen-ccw:
+  mod: mod1
+  key: p
+
+swap-screen-ccw:
+  mod: mod2
+  key: p
+
+swap-ccw:
+  mod: mod1
+  key: i
+
+swap-cw:
+  mod: mod1
+  key: d
+
+swap-main:
+  mod: mod1
+  key: \
+
+throw-space-1:
+  mod: mod2
+  key: 1
+
+throw-space-2:
+  mod: mod2
+  key: 2
+
+throw-space-3:
+  mod: mod2
+  key: 3
+
+select-tall-layout:
+  mod: mod1
+  key: a
+
+select-wide-layout:
+  mod: mod1
+  key: s
+
+throw-space-left:
+  mod: mod2
+  key: left
+
+throw-space-right:
+  mod: mod2
+  key: right
+
+toggle-float:
+  mod: mod1
+  key: t
+
+toggle-tiling:
+  mod: mod2
+  key: t
+
+reevaluate-windows:
+  mod: mod1
+  key: '#'
+
+relaunch-amethyst:
+  mod: mod2
+  key: z
+
+disable-padding-on-builtin-display: true
+
+window-margins: true
+smart-window-margins: false
+window-margin-size: 16
+
+window-max-count: 0
+window-minimum-height: 0
+window-minimum-width: 0
+
+floating-is-blacklist: true
+floating: []
+
+ignore-menu-bar: false
+hide-menu-bar-icon: false
+float-small-windows: false
+
+mouse-follows-focus: false
+focus-follows-mouse: false
+mouse-swaps-windows: false
+mouse-resizes-windows: false
+
+enables-layout-hud: false
+enables-layout-hud-on-space-change: false
+
+new-windows-to-main: false
+follow-space-thrown-windows: false
+
+window-resize-step: 2
+
+screen-padding-left: 0
+screen-padding-right: 0
+screen-padding-top: 0
+screen-padding-bottom: 0
+
+use-canary-build: false
+restore-layouts-on-launch: true
+debug-layout-info: false

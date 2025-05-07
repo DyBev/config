@@ -1,5 +1,8 @@
-*
+*/**
 !.gitignore
+!/aerospace/**
+!/amethyst/**
+/nvim/**
 
 # Idk why I am not consistent I guess I just move
 
@@ -7,5 +10,3 @@
 # alacritty is it's own repository at dybev/alacrittyconf
 # tmux is it's own conf already at dybev/tmuxconf
 
-!aerospace/*
-!amethyst/*
